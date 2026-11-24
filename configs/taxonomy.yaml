@@ -1,0 +1,72 @@
+# Taxonomy: 5 categories x 3 subcategories (fixed; do not add subcategories).
+# The understanding model predicts the subcategory only; the category is derived from this file.
+# Slot names must be fields of schemas.Entities. Defaults are applied downstream, not in the schema.
+
+categories: [flights, accommodation, destination, practical, agency]
+
+handlers: [flights, hotels, weather, currency, policy, llm_knowledge, template]
+
+subcategories:
+  flight_search:
+    category: flights
+    handler: flights
+    required_slots: [origin, destination, date_start]
+    optional_slots: [date_end, travelers]
+    defaults: {travelers: 1}
+  flight_baggage:
+    category: flights
+    handler: policy
+  flight_change_cancel:
+    category: flights
+    handler: policy
+
+  hotel_search:
+    category: accommodation
+    handler: hotels
+    required_slots: [destination, date_start, date_end]
+    optional_slots: [travelers, budget_amount, budget_currency]
+    defaults: {travelers: 1}
+  hotel_services:
+    category: accommodation
+    handler: policy
+  hotel_cancellation:
+    category: accommodation
+    handler: policy
+
+  weather:
+    category: destination
+    handler: weather
+    required_slots: [destination]
+    optional_slots: [date_start]
+  food:
+    category: destination
+    handler: llm_knowledge
+    required_slots: [destination]
+  attractions:
+    category: destination
+    handler: llm_knowledge
+    required_slots: [destination]
+
+  currency_exchange:
+    category: practical
+    handler: currency
+    required_slots: [currency_from, currency_to]
+    optional_slots: [amount]
+    defaults: {amount: 1}
+  visa_documents:
+    category: practical
+    handler: policy
+    optional_slots: [destination]
+  travel_insurance:
+    category: practical
+    handler: policy
+
+  payment_info:
+    category: agency
+    handler: policy
+  booking_process:
+    category: agency
+    handler: policy
+  contact_human:
+    category: agency
+    handler: template

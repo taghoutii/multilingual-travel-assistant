@@ -1,0 +1,48 @@
+# Runtime settings. Secrets (API keys) are read from .env, never from this file.
+
+seed: 42
+log_level: INFO
+max_sub_requests: 3
+eval_reference_date: 2026-12-01
+
+handlers:
+  timeout_s: 5.0
+  retries: 1
+
+llm_client:
+  timeout_s: 30.0
+  max_retries: 2          # retries on 429, 5xx and timeouts; other 4xx never retried
+  backoff_base_s: 1.0
+  backoff_max_s: 20.0
+
+# OpenAI-compatible endpoints. api_key_env names the variable in .env.
+providers:
+  groq:
+    base_url: https://api.groq.com/openai/v1
+    api_key_env: GROQ_API_KEY
+  gemini:
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    api_key_env: GEMINI_API_KEY
+
+# API models by role. `family` is used to check that the RAGAS judge differs from the generator.
+# model: null = not chosen yet (confirmed with the user before pinning).
+models:
+  generation:
+    provider: groq
+    model: openai/gpt-oss-120b
+    family: gpt-oss
+    temperature: 0.2
+  understanding_api:
+    provider: groq
+    model: openai/gpt-oss-120b
+    family: gpt-oss
+    temperature: 0.0
+  ragas_judge:
+    provider: gemini
+    model: null   # Gemini Flash version confirmed in Phase 6
+    family: gemini
+    temperature: 0.0
+
+understanding_base_model: null   # Qwen instruct ~1.5-2B, confirmed in Phase 3
+embeddings_model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+language_id_model: lid.176.ftz
