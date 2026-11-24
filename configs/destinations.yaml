@@ -1,0 +1,57 @@
+# Destination catalog: single source for places.
+# data/lookups/ is derived from this file (scripts/build_lookups.py); never edit lookups by hand.
+#
+# city fields: names (fr/en/ar), iata (main airport), country (ISO 3166-1 alpha-2),
+#              currency (ISO 4217), lat/lon (city centre, decimal degrees)
+
+countries:
+  FR: {names: {fr: France, en: France, ar: فرنسا}}
+  ES: {names: {fr: Espagne, en: Spain, ar: إسبانيا}}
+  IT: {names: {fr: Italie, en: Italy, ar: إيطاليا}}
+  PT: {names: {fr: Portugal, en: Portugal, ar: البرتغال}}
+  GB: {names: {fr: Royaume-Uni, en: United Kingdom, ar: المملكة المتحدة}}
+  DE: {names: {fr: Allemagne, en: Germany, ar: ألمانيا}}
+  MA: {names: {fr: Maroc, en: Morocco, ar: المغرب}}
+  EG: {names: {fr: Égypte, en: Egypt, ar: مصر}}
+  JO: {names: {fr: Jordanie, en: Jordan, ar: الأردن}}
+  TR: {names: {fr: Turquie, en: Turkey, ar: تركيا}}
+  AE: {names: {fr: Émirats arabes unis, en: United Arab Emirates, ar: الإمارات العربية المتحدة}}
+  US: {names: {fr: États-Unis, en: United States, ar: الولايات المتحدة}}
+  CA: {names: {fr: Canada, en: Canada, ar: كندا}}
+  JP: {names: {fr: Japon, en: Japan, ar: اليابان}}
+  TH: {names: {fr: Thaïlande, en: Thailand, ar: تايلاند}}
+  TN: {names: {fr: Tunisie, en: Tunisia, ar: تونس}}
+
+cities:
+  paris:       {names: {fr: Paris, en: Paris, ar: باريس}, iata: CDG, country: FR, currency: EUR, lat: 48.8566, lon: 2.3522}
+  nice:        {names: {fr: Nice, en: Nice, ar: نيس}, iata: NCE, country: FR, currency: EUR, lat: 43.7102, lon: 7.2620}
+  madrid:      {names: {fr: Madrid, en: Madrid, ar: مدريد}, iata: MAD, country: ES, currency: EUR, lat: 40.4168, lon: -3.7038}
+  barcelona:   {names: {fr: Barcelone, en: Barcelona, ar: برشلونة}, iata: BCN, country: ES, currency: EUR, lat: 41.3874, lon: 2.1686}
+  rome:        {names: {fr: Rome, en: Rome, ar: روما}, iata: FCO, country: IT, currency: EUR, lat: 41.9028, lon: 12.4964}
+  milan:       {names: {fr: Milan, en: Milan, ar: ميلانو}, iata: MXP, country: IT, currency: EUR, lat: 45.4642, lon: 9.1900}
+  lisbon:      {names: {fr: Lisbonne, en: Lisbon, ar: لشبونة}, iata: LIS, country: PT, currency: EUR, lat: 38.7223, lon: -9.1393}
+  porto:       {names: {fr: Porto, en: Porto, ar: بورتو}, iata: OPO, country: PT, currency: EUR, lat: 41.1579, lon: -8.6291}
+  london:      {names: {fr: Londres, en: London, ar: لندن}, iata: LHR, country: GB, currency: GBP, lat: 51.5074, lon: -0.1278}
+  edinburgh:   {names: {fr: Édimbourg, en: Edinburgh, ar: إدنبرة}, iata: EDI, country: GB, currency: GBP, lat: 55.9533, lon: -3.1883}
+  berlin:      {names: {fr: Berlin, en: Berlin, ar: برلين}, iata: BER, country: DE, currency: EUR, lat: 52.5200, lon: 13.4050}
+  munich:      {names: {fr: Munich, en: Munich, ar: ميونخ}, iata: MUC, country: DE, currency: EUR, lat: 48.1351, lon: 11.5820}
+  marrakech:   {names: {fr: Marrakech, en: Marrakesh, ar: مراكش}, iata: RAK, country: MA, currency: MAD, lat: 31.6295, lon: -7.9811}
+  casablanca:  {names: {fr: Casablanca, en: Casablanca, ar: الدار البيضاء}, iata: CMN, country: MA, currency: MAD, lat: 33.5731, lon: -7.5898}
+  cairo:       {names: {fr: Le Caire, en: Cairo, ar: القاهرة}, iata: CAI, country: EG, currency: EGP, lat: 30.0444, lon: 31.2357}
+  luxor:       {names: {fr: Louxor, en: Luxor, ar: الأقصر}, iata: LXR, country: EG, currency: EGP, lat: 25.6872, lon: 32.6396}
+  amman:       {names: {fr: Amman, en: Amman, ar: عمّان}, iata: AMM, country: JO, currency: JOD, lat: 31.9454, lon: 35.9284}
+  aqaba:       {names: {fr: Aqaba, en: Aqaba, ar: العقبة}, iata: AQJ, country: JO, currency: JOD, lat: 29.5321, lon: 35.0063}
+  istanbul:    {names: {fr: Istanbul, en: Istanbul, ar: إسطنبول}, iata: IST, country: TR, currency: TRY, lat: 41.0082, lon: 28.9784}
+  antalya:     {names: {fr: Antalya, en: Antalya, ar: أنطاليا}, iata: AYT, country: TR, currency: TRY, lat: 36.8969, lon: 30.7133}
+  dubai:       {names: {fr: Dubaï, en: Dubai, ar: دبي}, iata: DXB, country: AE, currency: AED, lat: 25.2048, lon: 55.2708}
+  abu_dhabi:   {names: {fr: Abou Dabi, en: Abu Dhabi, ar: أبوظبي}, iata: AUH, country: AE, currency: AED, lat: 24.4539, lon: 54.3773}
+  new_york:    {names: {fr: New York, en: New York, ar: نيويورك}, iata: JFK, country: US, currency: USD, lat: 40.7128, lon: -74.0060}
+  los_angeles: {names: {fr: Los Angeles, en: Los Angeles, ar: لوس أنجلوس}, iata: LAX, country: US, currency: USD, lat: 34.0522, lon: -118.2437}
+  montreal:    {names: {fr: Montréal, en: Montreal, ar: مونتريال}, iata: YUL, country: CA, currency: CAD, lat: 45.5019, lon: -73.5674}
+  toronto:     {names: {fr: Toronto, en: Toronto, ar: تورونتو}, iata: YYZ, country: CA, currency: CAD, lat: 43.6532, lon: -79.3832}
+  tokyo:       {names: {fr: Tokyo, en: Tokyo, ar: طوكيو}, iata: HND, country: JP, currency: JPY, lat: 35.6762, lon: 139.6503}
+  osaka:       {names: {fr: Osaka, en: Osaka, ar: أوساكا}, iata: KIX, country: JP, currency: JPY, lat: 34.6937, lon: 135.5023}
+  bangkok:     {names: {fr: Bangkok, en: Bangkok, ar: بانكوك}, iata: BKK, country: TH, currency: THB, lat: 13.7563, lon: 100.5018}
+  phuket:      {names: {fr: Phuket, en: Phuket, ar: بوكيت}, iata: HKT, country: TH, currency: THB, lat: 7.8804, lon: 98.3923}
+  tunis:       {names: {fr: Tunis, en: Tunis, ar: تونس}, iata: TUN, country: TN, currency: TND, lat: 36.8065, lon: 10.1815}
+  djerba:      {names: {fr: Djerba, en: Djerba, ar: جربة}, iata: DJE, country: TN, currency: TND, lat: 33.8076, lon: 10.8451}

@@ -1,0 +1,38 @@
+# Project instructions and decision log (local only)
+CLAUDE.md
+DECISIONS.md
+.claude/
+
+# Secrets
+.env
+
+# Data that is not published
+data/synthetic/
+data/test/
+data_generation/
+
+# Models and training artifacts
+models/
+adapters/
+*.gguf
+*.safetensors
+mlruns/
+
+# Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
