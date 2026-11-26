@@ -1,0 +1,49 @@
+# Fixed replies for early exits, in the user's language.
+# off_topic: the scope gate rejected the message. The list says what the assistant can help with.
+# unsupported_language: one-line notice placed before an English reply.
+
+off_topic:
+  en:
+    intro: "Sorry, I can't help with that request. I can help you with:"
+    topics:
+      - flights
+      - hotels
+      - weather
+      - currency exchange
+      - visas and travel documents
+      - travel insurance
+      - baggage
+      - flight changes and cancellations
+      - booking and payment information
+      - local food and attractions
+      - contacting an agent
+  fr:
+    intro: "Désolé, je ne peux pas vous aider pour cette demande. Je peux vous aider pour :"
+    topics:
+      - les vols
+      - les hôtels
+      - la météo
+      - le change de devises
+      - les visas et documents de voyage
+      - l'assurance voyage
+      - les bagages
+      - les modifications et annulations de vol
+      - les informations sur la réservation et le paiement
+      - la cuisine locale et les sites à visiter
+      - la mise en relation avec un conseiller
+  ar:
+    intro: "عذرًا، لا أستطيع المساعدة في هذا الطلب. يمكنني مساعدتك في:"
+    topics:
+      - الرحلات الجوية
+      - الفنادق
+      - الطقس
+      - صرف العملات
+      - التأشيرات ووثائق السفر
+      - تأمين السفر
+      - الأمتعة
+      - تعديل الرحلات الجوية وإلغاؤها
+      - معلومات الحجز والدفع
+      - المأكولات المحلية والمعالم السياحية
+      - التواصل مع أحد موظفي الوكالة
+
+unsupported_language: "I can reply in English, French or Arabic, so I am answering in English."

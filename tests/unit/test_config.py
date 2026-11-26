@@ -60,3 +60,11 @@ def test_secrets_read_from_env(monkeypatch: pytest.MonkeyPatch) -> None:
     assert secrets.get("GROQ_API_KEY") == "test-key"
     assert secrets.get("GEMINI_API_KEY") is None
     assert "test-key" not in repr(secrets)
+
+
+def test_stage_settings_load() -> None:
+    settings = load_settings()
+    assert settings.language_id.model == "lid.176.ftz"
+    assert 0 < settings.language_id.unsupported_min_prob <= 1
+    assert settings.scope_gate.target_in_scope_accept == 0.97
+    assert "scale" in settings.scope_gate.gamma_grid

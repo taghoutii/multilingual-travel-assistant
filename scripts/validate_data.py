@@ -32,27 +32,12 @@ from travel_agent.data_checks import (
     find_leaks,
     load_jsonl,
 )
+from travel_agent.embeddings import load_embedder
 from travel_agent.lookups import get_lookups
 from travel_agent.taxonomy import get_taxonomy
 
 SYNTHETIC_DIR = PROJECT_ROOT / "data" / "synthetic"
 TEST_DIR = PROJECT_ROOT / "data" / "test"
-MODELS_DIR = PROJECT_ROOT / "models"
-
-
-def embedder() -> Any:
-    from sentence_transformers import SentenceTransformer
-
-    model = SentenceTransformer(
-        get_settings().embeddings_model, cache_folder=str(MODELS_DIR / "hf")
-    )
-
-    def embed(texts: list[str]) -> Any:
-        return model.encode(
-            texts, batch_size=64, normalize_embeddings=True, show_progress_bar=False
-        )
-
-    return embed
 
 
 def load_all() -> tuple[list[Dataset], list[Dataset], list[Issue]]:
@@ -108,7 +93,7 @@ def main() -> int:
         issues.append(Issue("warning", "leakage", "-", None, "skipped (--skip-leakage)"))
     else:
         try:
-            embed = embedder()
+            embed = load_embedder()
         except ImportError:
             print("leakage check needs the ml group: uv run --group ml python <this script>")
             return 1

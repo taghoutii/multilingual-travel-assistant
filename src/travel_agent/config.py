@@ -6,7 +6,7 @@ import os
 from datetime import date
 from functools import lru_cache
 from pathlib import Path
-from typing import Any
+from typing import Any, Literal
 
 import yaml
 from pydantic import BaseModel, ConfigDict, Field, SecretStr, model_validator
@@ -46,6 +46,19 @@ class ModelSettings(_Frozen):
     max_tokens: int | None = Field(default=None, gt=0)
 
 
+class LanguageIdSettings(_Frozen):
+    model: str
+    unsupported_min_prob: float = Field(gt=0, le=1)
+    keep_previous_below: float = Field(ge=0, le=1)
+
+
+class ScopeGateSettings(_Frozen):
+    model_file: str
+    target_in_scope_accept: float = Field(gt=0, le=1)
+    nu_grid: list[float] = Field(min_length=1)
+    gamma_grid: list[float | Literal["scale", "auto"]] = Field(min_length=1)
+
+
 class Settings(_Frozen):
     seed: int
     log_level: str = "INFO"
@@ -57,7 +70,8 @@ class Settings(_Frozen):
     models: dict[str, ModelSettings]
     understanding_base_model: str | None
     embeddings_model: str
-    language_id_model: str
+    language_id: LanguageIdSettings
+    scope_gate: ScopeGateSettings
 
     @model_validator(mode="after")
     def _check_models(self) -> Settings:

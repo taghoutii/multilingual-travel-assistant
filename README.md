@@ -16,7 +16,7 @@ cp .env.example .env
 ```
 
 The `ml` dependency group (sentence-transformers, torch) is only needed for embedding-based
-steps such as the data leakage check: `uv sync --group ml`.
+steps such as the data leakage check and the scope gate: `uv sync --group ml`.
 
 ## Checks
 
@@ -41,8 +41,24 @@ uv run --group ml python scripts/validate_data.py      # all dataset checks
 Off-topic test queries come from [MASSIVE](https://github.com/alexa/massive) (FitzGerald et al.,
 2022), released by Amazon under the CC BY 4.0 license.
 
+## Language ID and scope gate
+
+The first two pipeline stages pick the reply language (fastText `lid.176`, restricted to French,
+English and Arabic) and decline requests outside the 15 subcategories (One-Class SVM on
+multilingual sentence embeddings). Declined requests get a reply listing what the assistant can
+help with, in the user's language (`configs/refusal_templates.yaml`).
+
+```bash
+uv run --group ml python scripts/download_models.py --embeddings   # models/ (git-ignored)
+uv run --group ml python scripts/train_scope_gate.py               # models/scope_gate.joblib
+uv run --group ml python scripts/eval_language_scope.py            # reports/language_scope_val.md
+uv run --group ml python scripts/eval_language_scope.py --split test
+```
+
 ## Limitations
 
 - The test set is model-generated and checked by the author rather than written by real users.
 - Questions outside the 15 supported subcategories are not handled (the assistant declines them).
+  Travel requests just outside them (car rental, trains, buses, taxis, cruises) are often not
+  recognized as off-topic by the scope gate.
 - Destinations are limited to a fixed catalog of 32 cities.
