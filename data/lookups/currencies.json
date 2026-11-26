@@ -1,0 +1,236 @@
+{
+  "codes": [
+    "AED",
+    "BHD",
+    "CAD",
+    "CHF",
+    "CNY",
+    "DZD",
+    "EGP",
+    "EUR",
+    "GBP",
+    "INR",
+    "JOD",
+    "JPY",
+    "KWD",
+    "LBP",
+    "LYD",
+    "MAD",
+    "OMR",
+    "QAR",
+    "SAR",
+    "THB",
+    "TND",
+    "TRY",
+    "USD",
+    "XOF"
+  ],
+  "words": {
+    "baht": "THB",
+    "bath": "THB",
+    "cfa": "XOF",
+    "dh": "MAD",
+    "dt": "TND",
+    "egyptian pound": "EGP",
+    "eur": "EUR",
+    "euro": "EUR",
+    "franc cfa": "XOF",
+    "lebanese pound": "LBP",
+    "lira": "TRY",
+    "livre egyptienne": "EGP",
+    "livre libanaise": "LBP",
+    "livre sterling": "GBP",
+    "livre turque": "TRY",
+    "mad": "MAD",
+    "pound sterling": "GBP",
+    "renminbi": "CNY",
+    "roupie": "INR",
+    "rupee": "INR",
+    "sterling": "GBP",
+    "turkish lira": "TRY",
+    "yen": "JPY",
+    "yuan": "CNY",
+    "£": "GBP",
+    "الباهت": "THB",
+    "الجنيه الاسترليني": "GBP",
+    "الين": "JPY",
+    "بات": "THB",
+    "باهت": "THB",
+    "جنيه استرليني": "GBP",
+    "جنيه مصري": "EGP",
+    "روبيه": "INR",
+    "ليره تركيه": "TRY",
+    "ليره لبنانيه": "LBP",
+    "ين": "JPY",
+    "يوان": "CNY",
+    "يورو": "EUR",
+    "€": "EUR"
+  },
+  "ambiguous": {
+    "dollar": {
+      "default": "USD",
+      "words": [
+        "$",
+        "buck",
+        "dollar",
+        "دولار"
+      ],
+      "qualifiers": {
+        "us": "USD",
+        "americain": "USD",
+        "american": "USD",
+        "امريكي": "USD",
+        "الامريكي": "USD",
+        "canadien": "CAD",
+        "canadian": "CAD",
+        "كندي": "CAD",
+        "الكندي": "CAD"
+      }
+    },
+    "dinar": {
+      "default": "TND",
+      "words": [
+        "dinar",
+        "دينار"
+      ],
+      "qualifiers": {
+        "tunisien": "TND",
+        "tunisian": "TND",
+        "تونسي": "TND",
+        "التونسي": "TND",
+        "algerien": "DZD",
+        "algerian": "DZD",
+        "جزايري": "DZD",
+        "الجزايري": "DZD",
+        "jordanien": "JOD",
+        "jordanian": "JOD",
+        "اردني": "JOD",
+        "الاردني": "JOD",
+        "koweitien": "KWD",
+        "kuwaiti": "KWD",
+        "كويتي": "KWD",
+        "الكويتي": "KWD",
+        "bahreini": "BHD",
+        "bahraini": "BHD",
+        "بحريني": "BHD",
+        "البحريني": "BHD",
+        "libyen": "LYD",
+        "libyan": "LYD",
+        "ليبي": "LYD",
+        "الليبي": "LYD"
+      }
+    },
+    "pound": {
+      "default": "GBP",
+      "words": [
+        "livre",
+        "pound",
+        "quid"
+      ],
+      "qualifiers": {
+        "britannique": "GBP",
+        "british": "GBP",
+        "anglaise": "GBP",
+        "english": "GBP",
+        "uk": "GBP",
+        "egyptienne": "EGP",
+        "egyptian": "EGP",
+        "مصري": "EGP",
+        "libanaise": "LBP",
+        "lebanese": "LBP",
+        "turque": "TRY",
+        "turkish": "TRY"
+      }
+    },
+    "junayh": {
+      "default": "EGP",
+      "words": [
+        "جنيه"
+      ],
+      "qualifiers": {
+        "استرليني": "GBP",
+        "الاسترليني": "GBP",
+        "بريطاني": "GBP",
+        "مصري": "EGP",
+        "المصري": "EGP"
+      }
+    },
+    "dirham": {
+      "default": "MAD",
+      "words": [
+        "dirham",
+        "درهم"
+      ],
+      "qualifiers": {
+        "marocain": "MAD",
+        "moroccan": "MAD",
+        "مغربي": "MAD",
+        "المغربي": "MAD",
+        "emirati": "AED",
+        "emirien": "AED",
+        "emirats": "AED",
+        "uae": "AED",
+        "اماراتي": "AED",
+        "الاماراتي": "AED",
+        "الامارات": "AED"
+      }
+    },
+    "riyal": {
+      "default": "SAR",
+      "words": [
+        "rial",
+        "riyal",
+        "ريال"
+      ],
+      "qualifiers": {
+        "saoudien": "SAR",
+        "saudi": "SAR",
+        "سعودي": "SAR",
+        "السعودي": "SAR",
+        "qatari": "QAR",
+        "qatarien": "QAR",
+        "قطري": "QAR",
+        "القطري": "QAR",
+        "omanais": "OMR",
+        "omani": "OMR",
+        "عماني": "OMR",
+        "العماني": "OMR"
+      }
+    },
+    "franc": {
+      "default": "CHF",
+      "words": [
+        "franc",
+        "فرنك"
+      ],
+      "qualifiers": {
+        "suisse": "CHF",
+        "swiss": "CHF",
+        "سويسري": "CHF",
+        "cfa": "XOF"
+      }
+    },
+    "lira": {
+      "default": "TRY",
+      "words": [
+        "ليره"
+      ],
+      "qualifiers": {
+        "تركيه": "TRY",
+        "التركيه": "TRY",
+        "تركي": "TRY",
+        "لبنانيه": "LBP",
+        "اللبنانيه": "LBP"
+      }
+    }
+  },
+  "arabic_plurals": {
+    "دنانير": "دينار",
+    "دراهم": "درهم",
+    "دولارات": "دولار",
+    "جنيهات": "جنيه",
+    "ريالات": "ريال",
+    "ليرات": "ليره",
+    "فرنكات": "فرنك"
+  }
+}

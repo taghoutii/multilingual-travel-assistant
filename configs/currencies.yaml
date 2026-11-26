@@ -1,0 +1,92 @@
+# Currency words (fr/en/ar) -> ISO 4217. Source for data/lookups/currencies.json (build_lookups.py).
+# Matching is done on folded text (lowercase, no accents, Arabic hamza unified) and singular forms.
+#
+# `codes`: every ISO code accepted by the system (the catalog currencies plus common ones; any other
+#   code supported by ExchangeRate-API is also accepted when written as a 3-letter code).
+# `words`: unambiguous words and phrases.
+# `ambiguous`: a word shared by several currencies. A qualifier in the same phrase picks the
+#   currency ("dinar algerien" -> DZD); without one, `default` is used ("dinars" -> TND).
+
+codes: [EUR, USD, GBP, CAD, CHF, JPY, CNY, THB, TRY, AED, SAR, QAR, KWD, BHD, OMR, JOD, EGP, MAD,
+        TND, DZD, LYD, LBP, XOF, INR]
+
+words:
+  EUR: [euro, eur, "€", يورو]
+  JPY: [yen, ين, الين]
+  THB: [baht, bath, بات, الباهت, باهت]
+  CNY: [yuan, renminbi, يوان]
+  INR: [roupie, rupee, روبية]
+  GBP: [sterling, livre sterling, pound sterling, "£", جنيه استرليني, الجنيه الاسترليني]
+  TRY: [livre turque, turkish lira, lira, ليرة تركية]
+  XOF: [franc cfa, cfa]
+  EGP: [livre egyptienne, egyptian pound, جنيه مصري]
+  LBP: [livre libanaise, lebanese pound, ليرة لبنانية]
+  TND: [dt]
+  MAD: [dh, mad]
+
+ambiguous:
+  dollar:
+    default: USD
+    words: [dollar, "$", buck, دولار]
+    qualifiers:
+      USD: [us, americain, american, امريكي, الامريكي]
+      CAD: [canadien, canadian, كندي, الكندي]
+  dinar:
+    default: TND
+    words: [dinar, دينار]
+    qualifiers:
+      TND: [tunisien, tunisian, تونسي, التونسي]
+      DZD: [algerien, algerian, جزائري, الجزائري]
+      JOD: [jordanien, jordanian, اردني, الاردني]
+      KWD: [koweitien, kuwaiti, كويتي, الكويتي]
+      BHD: [bahreini, bahraini, بحريني, البحريني]
+      LYD: [libyen, libyan, ليبي, الليبي]
+  pound:
+    default: GBP
+    words: [pound, livre, quid]
+    qualifiers:
+      GBP: [britannique, british, anglaise, english, uk]
+      EGP: [egyptienne, egyptian, مصري]
+      LBP: [libanaise, lebanese]
+      TRY: [turque, turkish]
+  junayh:  # Arabic جنيه alone usually means the Egyptian pound
+    default: EGP
+    words: [جنيه]
+    qualifiers:
+      GBP: [استرليني, الاسترليني, بريطاني]
+      EGP: [مصري, المصري]
+  dirham:
+    default: MAD
+    words: [dirham, درهم]
+    qualifiers:
+      MAD: [marocain, moroccan, مغربي, المغربي]
+      AED: [emirati, emirien, emirats, uae, اماراتي, الاماراتي, الامارات]
+  riyal:
+    default: SAR
+    words: [riyal, rial, ريال]
+    qualifiers:
+      SAR: [saoudien, saudi, سعودي, السعودي]
+      QAR: [qatari, qatarien, قطري, القطري]
+      OMR: [omanais, omani, عماني, العماني]
+  franc:
+    default: CHF
+    words: [franc, فرنك]
+    qualifiers:
+      CHF: [suisse, swiss, سويسري]
+      XOF: [cfa]
+  lira:  # Arabic ليرة alone: Turkish lira
+    default: TRY
+    words: [ليرة]
+    qualifiers:
+      TRY: [تركية, التركية, تركي]
+      LBP: [لبنانية, اللبنانية]
+
+# Arabic broken plurals -> singular (folded forms are produced by the build script).
+arabic_plurals:
+  دنانير: دينار
+  دراهم: درهم
+  دولارات: دولار
+  جنيهات: جنيه
+  ريالات: ريال
+  ليرات: ليرة
+  فرنكات: فرنك

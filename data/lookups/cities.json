@@ -1,0 +1,689 @@
+{
+  "cities": {
+    "abu_dhabi": {
+      "names": {
+        "fr": "Abou Dabi",
+        "en": "Abu Dhabi",
+        "ar": "أبوظبي"
+      },
+      "iata": "AUH",
+      "country": "AE",
+      "currency": "AED",
+      "lat": 24.4539,
+      "lon": 54.3773
+    },
+    "amman": {
+      "names": {
+        "fr": "Amman",
+        "en": "Amman",
+        "ar": "عمّان"
+      },
+      "iata": "AMM",
+      "country": "JO",
+      "currency": "JOD",
+      "lat": 31.9454,
+      "lon": 35.9284
+    },
+    "antalya": {
+      "names": {
+        "fr": "Antalya",
+        "en": "Antalya",
+        "ar": "أنطاليا"
+      },
+      "iata": "AYT",
+      "country": "TR",
+      "currency": "TRY",
+      "lat": 36.8969,
+      "lon": 30.7133
+    },
+    "aqaba": {
+      "names": {
+        "fr": "Aqaba",
+        "en": "Aqaba",
+        "ar": "العقبة"
+      },
+      "iata": "AQJ",
+      "country": "JO",
+      "currency": "JOD",
+      "lat": 29.5321,
+      "lon": 35.0063
+    },
+    "bangkok": {
+      "names": {
+        "fr": "Bangkok",
+        "en": "Bangkok",
+        "ar": "بانكوك"
+      },
+      "iata": "BKK",
+      "country": "TH",
+      "currency": "THB",
+      "lat": 13.7563,
+      "lon": 100.5018
+    },
+    "barcelona": {
+      "names": {
+        "fr": "Barcelone",
+        "en": "Barcelona",
+        "ar": "برشلونة"
+      },
+      "iata": "BCN",
+      "country": "ES",
+      "currency": "EUR",
+      "lat": 41.3874,
+      "lon": 2.1686
+    },
+    "berlin": {
+      "names": {
+        "fr": "Berlin",
+        "en": "Berlin",
+        "ar": "برلين"
+      },
+      "iata": "BER",
+      "country": "DE",
+      "currency": "EUR",
+      "lat": 52.52,
+      "lon": 13.405
+    },
+    "cairo": {
+      "names": {
+        "fr": "Le Caire",
+        "en": "Cairo",
+        "ar": "القاهرة"
+      },
+      "iata": "CAI",
+      "country": "EG",
+      "currency": "EGP",
+      "lat": 30.0444,
+      "lon": 31.2357
+    },
+    "casablanca": {
+      "names": {
+        "fr": "Casablanca",
+        "en": "Casablanca",
+        "ar": "الدار البيضاء"
+      },
+      "iata": "CMN",
+      "country": "MA",
+      "currency": "MAD",
+      "lat": 33.5731,
+      "lon": -7.5898
+    },
+    "djerba": {
+      "names": {
+        "fr": "Djerba",
+        "en": "Djerba",
+        "ar": "جربة"
+      },
+      "iata": "DJE",
+      "country": "TN",
+      "currency": "TND",
+      "lat": 33.8076,
+      "lon": 10.8451
+    },
+    "dubai": {
+      "names": {
+        "fr": "Dubaï",
+        "en": "Dubai",
+        "ar": "دبي"
+      },
+      "iata": "DXB",
+      "country": "AE",
+      "currency": "AED",
+      "lat": 25.2048,
+      "lon": 55.2708
+    },
+    "edinburgh": {
+      "names": {
+        "fr": "Édimbourg",
+        "en": "Edinburgh",
+        "ar": "إدنبرة"
+      },
+      "iata": "EDI",
+      "country": "GB",
+      "currency": "GBP",
+      "lat": 55.9533,
+      "lon": -3.1883
+    },
+    "istanbul": {
+      "names": {
+        "fr": "Istanbul",
+        "en": "Istanbul",
+        "ar": "إسطنبول"
+      },
+      "iata": "IST",
+      "country": "TR",
+      "currency": "TRY",
+      "lat": 41.0082,
+      "lon": 28.9784
+    },
+    "lisbon": {
+      "names": {
+        "fr": "Lisbonne",
+        "en": "Lisbon",
+        "ar": "لشبونة"
+      },
+      "iata": "LIS",
+      "country": "PT",
+      "currency": "EUR",
+      "lat": 38.7223,
+      "lon": -9.1393
+    },
+    "london": {
+      "names": {
+        "fr": "Londres",
+        "en": "London",
+        "ar": "لندن"
+      },
+      "iata": "LHR",
+      "country": "GB",
+      "currency": "GBP",
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "los_angeles": {
+      "names": {
+        "fr": "Los Angeles",
+        "en": "Los Angeles",
+        "ar": "لوس أنجلوس"
+      },
+      "iata": "LAX",
+      "country": "US",
+      "currency": "USD",
+      "lat": 34.0522,
+      "lon": -118.2437
+    },
+    "luxor": {
+      "names": {
+        "fr": "Louxor",
+        "en": "Luxor",
+        "ar": "الأقصر"
+      },
+      "iata": "LXR",
+      "country": "EG",
+      "currency": "EGP",
+      "lat": 25.6872,
+      "lon": 32.6396
+    },
+    "madrid": {
+      "names": {
+        "fr": "Madrid",
+        "en": "Madrid",
+        "ar": "مدريد"
+      },
+      "iata": "MAD",
+      "country": "ES",
+      "currency": "EUR",
+      "lat": 40.4168,
+      "lon": -3.7038
+    },
+    "marrakech": {
+      "names": {
+        "fr": "Marrakech",
+        "en": "Marrakesh",
+        "ar": "مراكش"
+      },
+      "iata": "RAK",
+      "country": "MA",
+      "currency": "MAD",
+      "lat": 31.6295,
+      "lon": -7.9811
+    },
+    "milan": {
+      "names": {
+        "fr": "Milan",
+        "en": "Milan",
+        "ar": "ميلانو"
+      },
+      "iata": "MXP",
+      "country": "IT",
+      "currency": "EUR",
+      "lat": 45.4642,
+      "lon": 9.19
+    },
+    "montreal": {
+      "names": {
+        "fr": "Montréal",
+        "en": "Montreal",
+        "ar": "مونتريال"
+      },
+      "iata": "YUL",
+      "country": "CA",
+      "currency": "CAD",
+      "lat": 45.5019,
+      "lon": -73.5674
+    },
+    "munich": {
+      "names": {
+        "fr": "Munich",
+        "en": "Munich",
+        "ar": "ميونخ"
+      },
+      "iata": "MUC",
+      "country": "DE",
+      "currency": "EUR",
+      "lat": 48.1351,
+      "lon": 11.582
+    },
+    "new_york": {
+      "names": {
+        "fr": "New York",
+        "en": "New York",
+        "ar": "نيويورك"
+      },
+      "iata": "JFK",
+      "country": "US",
+      "currency": "USD",
+      "lat": 40.7128,
+      "lon": -74.006
+    },
+    "nice": {
+      "names": {
+        "fr": "Nice",
+        "en": "Nice",
+        "ar": "نيس"
+      },
+      "iata": "NCE",
+      "country": "FR",
+      "currency": "EUR",
+      "lat": 43.7102,
+      "lon": 7.262
+    },
+    "osaka": {
+      "names": {
+        "fr": "Osaka",
+        "en": "Osaka",
+        "ar": "أوساكا"
+      },
+      "iata": "KIX",
+      "country": "JP",
+      "currency": "JPY",
+      "lat": 34.6937,
+      "lon": 135.5023
+    },
+    "paris": {
+      "names": {
+        "fr": "Paris",
+        "en": "Paris",
+        "ar": "باريس"
+      },
+      "iata": "CDG",
+      "country": "FR",
+      "currency": "EUR",
+      "lat": 48.8566,
+      "lon": 2.3522
+    },
+    "phuket": {
+      "names": {
+        "fr": "Phuket",
+        "en": "Phuket",
+        "ar": "بوكيت"
+      },
+      "iata": "HKT",
+      "country": "TH",
+      "currency": "THB",
+      "lat": 7.8804,
+      "lon": 98.3923
+    },
+    "porto": {
+      "names": {
+        "fr": "Porto",
+        "en": "Porto",
+        "ar": "بورتو"
+      },
+      "iata": "OPO",
+      "country": "PT",
+      "currency": "EUR",
+      "lat": 41.1579,
+      "lon": -8.6291
+    },
+    "rome": {
+      "names": {
+        "fr": "Rome",
+        "en": "Rome",
+        "ar": "روما"
+      },
+      "iata": "FCO",
+      "country": "IT",
+      "currency": "EUR",
+      "lat": 41.9028,
+      "lon": 12.4964
+    },
+    "tokyo": {
+      "names": {
+        "fr": "Tokyo",
+        "en": "Tokyo",
+        "ar": "طوكيو"
+      },
+      "iata": "HND",
+      "country": "JP",
+      "currency": "JPY",
+      "lat": 35.6762,
+      "lon": 139.6503
+    },
+    "toronto": {
+      "names": {
+        "fr": "Toronto",
+        "en": "Toronto",
+        "ar": "تورونتو"
+      },
+      "iata": "YYZ",
+      "country": "CA",
+      "currency": "CAD",
+      "lat": 43.6532,
+      "lon": -79.3832
+    },
+    "tunis": {
+      "names": {
+        "fr": "Tunis",
+        "en": "Tunis",
+        "ar": "تونس"
+      },
+      "iata": "TUN",
+      "country": "TN",
+      "currency": "TND",
+      "lat": 36.8065,
+      "lon": 10.1815
+    }
+  },
+  "countries": {
+    "AE": {
+      "names": {
+        "fr": "Émirats arabes unis",
+        "en": "United Arab Emirates",
+        "ar": "الإمارات العربية المتحدة"
+      }
+    },
+    "CA": {
+      "names": {
+        "fr": "Canada",
+        "en": "Canada",
+        "ar": "كندا"
+      }
+    },
+    "DE": {
+      "names": {
+        "fr": "Allemagne",
+        "en": "Germany",
+        "ar": "ألمانيا"
+      }
+    },
+    "EG": {
+      "names": {
+        "fr": "Égypte",
+        "en": "Egypt",
+        "ar": "مصر"
+      }
+    },
+    "ES": {
+      "names": {
+        "fr": "Espagne",
+        "en": "Spain",
+        "ar": "إسبانيا"
+      }
+    },
+    "FR": {
+      "names": {
+        "fr": "France",
+        "en": "France",
+        "ar": "فرنسا"
+      }
+    },
+    "GB": {
+      "names": {
+        "fr": "Royaume-Uni",
+        "en": "United Kingdom",
+        "ar": "المملكة المتحدة"
+      }
+    },
+    "IT": {
+      "names": {
+        "fr": "Italie",
+        "en": "Italy",
+        "ar": "إيطاليا"
+      }
+    },
+    "JO": {
+      "names": {
+        "fr": "Jordanie",
+        "en": "Jordan",
+        "ar": "الأردن"
+      }
+    },
+    "JP": {
+      "names": {
+        "fr": "Japon",
+        "en": "Japan",
+        "ar": "اليابان"
+      }
+    },
+    "MA": {
+      "names": {
+        "fr": "Maroc",
+        "en": "Morocco",
+        "ar": "المغرب"
+      }
+    },
+    "PT": {
+      "names": {
+        "fr": "Portugal",
+        "en": "Portugal",
+        "ar": "البرتغال"
+      }
+    },
+    "TH": {
+      "names": {
+        "fr": "Thaïlande",
+        "en": "Thailand",
+        "ar": "تايلاند"
+      }
+    },
+    "TN": {
+      "names": {
+        "fr": "Tunisie",
+        "en": "Tunisia",
+        "ar": "تونس"
+      }
+    },
+    "TR": {
+      "names": {
+        "fr": "Turquie",
+        "en": "Turkey",
+        "ar": "تركيا"
+      }
+    },
+    "US": {
+      "names": {
+        "fr": "États-Unis",
+        "en": "United States",
+        "ar": "الولايات المتحدة"
+      }
+    }
+  },
+  "aliases": {
+    "city": {
+      "abou dabi": "abu_dhabi",
+      "abu dhabi": "abu_dhabi",
+      "amm": "amman",
+      "amman": "amman",
+      "antalya": "antalya",
+      "aqaba": "aqaba",
+      "aqj": "aqaba",
+      "auh": "abu_dhabi",
+      "ayt": "antalya",
+      "bangkok": "bangkok",
+      "barcelona": "barcelona",
+      "barcelone": "barcelona",
+      "bcn": "barcelona",
+      "ber": "berlin",
+      "berlin": "berlin",
+      "bkk": "bangkok",
+      "cai": "cairo",
+      "caire": "cairo",
+      "cairo": "cairo",
+      "casablanca": "casablanca",
+      "cdg": "paris",
+      "cmn": "casablanca",
+      "dje": "djerba",
+      "djerba": "djerba",
+      "dubai": "dubai",
+      "dxb": "dubai",
+      "edi": "edinburgh",
+      "edimbourg": "edinburgh",
+      "edinburgh": "edinburgh",
+      "fco": "rome",
+      "hkt": "phuket",
+      "hnd": "tokyo",
+      "ist": "istanbul",
+      "istanbul": "istanbul",
+      "jfk": "new_york",
+      "kix": "osaka",
+      "lax": "los_angeles",
+      "le caire": "cairo",
+      "lhr": "london",
+      "lis": "lisbon",
+      "lisbon": "lisbon",
+      "lisbonne": "lisbon",
+      "london": "london",
+      "londres": "london",
+      "los angeles": "los_angeles",
+      "louxor": "luxor",
+      "luxor": "luxor",
+      "lxr": "luxor",
+      "mad": "madrid",
+      "madrid": "madrid",
+      "marrakech": "marrakech",
+      "marrakesh": "marrakech",
+      "milan": "milan",
+      "montreal": "montreal",
+      "muc": "munich",
+      "munich": "munich",
+      "mxp": "milan",
+      "nce": "nice",
+      "new york": "new_york",
+      "nice": "nice",
+      "ny": "new_york",
+      "nyc": "new_york",
+      "opo": "porto",
+      "osaka": "osaka",
+      "paris": "paris",
+      "phuket": "phuket",
+      "porto": "porto",
+      "rak": "marrakech",
+      "rome": "rome",
+      "tokyo": "tokyo",
+      "toronto": "toronto",
+      "tun": "tunis",
+      "tunis": "tunis",
+      "yul": "montreal",
+      "yyz": "toronto",
+      "ابوظبي": "abu_dhabi",
+      "ادنبره": "edinburgh",
+      "اسطنبول": "istanbul",
+      "اقصر": "luxor",
+      "الاقصر": "luxor",
+      "الدار البيضاء": "casablanca",
+      "العقبه": "aqaba",
+      "القاهره": "cairo",
+      "انطاليا": "antalya",
+      "اوساكا": "osaka",
+      "باريس": "paris",
+      "بانكوك": "bangkok",
+      "برشلونه": "barcelona",
+      "برلين": "berlin",
+      "بورتو": "porto",
+      "بوكيت": "phuket",
+      "تورونتو": "toronto",
+      "تونس": "tunis",
+      "جربه": "djerba",
+      "دار البيضاء": "casablanca",
+      "دبي": "dubai",
+      "روما": "rome",
+      "طوكيو": "tokyo",
+      "عقبه": "aqaba",
+      "عمان": "amman",
+      "قاهره": "cairo",
+      "لشبونه": "lisbon",
+      "لندن": "london",
+      "لوس انجلوس": "los_angeles",
+      "مدريد": "madrid",
+      "مراكش": "marrakech",
+      "مونتريال": "montreal",
+      "ميلانو": "milan",
+      "ميونخ": "munich",
+      "نيس": "nice",
+      "نيويورك": "new_york"
+    },
+    "country": {
+      "allemagne": "DE",
+      "america": "US",
+      "amerique": "US",
+      "angleterre": "GB",
+      "britain": "GB",
+      "canada": "CA",
+      "egypt": "EG",
+      "egypte": "EG",
+      "emirats": "AE",
+      "emirats arabes unis": "AE",
+      "england": "GB",
+      "espagne": "ES",
+      "etats unis": "US",
+      "france": "FR",
+      "germany": "DE",
+      "grande bretagne": "GB",
+      "great britain": "GB",
+      "italie": "IT",
+      "italy": "IT",
+      "japan": "JP",
+      "japon": "JP",
+      "jordan": "JO",
+      "jordanie": "JO",
+      "maroc": "MA",
+      "morocco": "MA",
+      "portugal": "PT",
+      "royaume uni": "GB",
+      "spain": "ES",
+      "thailand": "TH",
+      "thailande": "TH",
+      "tunisia": "TN",
+      "tunisie": "TN",
+      "turkey": "TR",
+      "turquie": "TR",
+      "uae": "AE",
+      "uk": "GB",
+      "united arab emirates": "AE",
+      "united kingdom": "GB",
+      "united states": "US",
+      "us": "US",
+      "usa": "US",
+      "اردن": "JO",
+      "اسبانيا": "ES",
+      "الاردن": "JO",
+      "الامارات": "AE",
+      "الامارات العربيه المتحده": "AE",
+      "البرتغال": "PT",
+      "المانيا": "DE",
+      "المغرب": "MA",
+      "المملكه المتحده": "GB",
+      "الولايات المتحده": "US",
+      "اليابان": "JP",
+      "امارات": "AE",
+      "امارات العربيه المتحده": "AE",
+      "امريكا": "US",
+      "انجلترا": "GB",
+      "ايطاليا": "IT",
+      "برتغال": "PT",
+      "بريطانيا": "GB",
+      "تايلاند": "TH",
+      "تركيا": "TR",
+      "تونس": "TN",
+      "فرنسا": "FR",
+      "كندا": "CA",
+      "مانيا": "DE",
+      "مصر": "EG",
+      "مغرب": "MA",
+      "مملكه المتحده": "GB",
+      "ولايات المتحده": "US",
+      "يابان": "JP"
+    }
+  }
+}

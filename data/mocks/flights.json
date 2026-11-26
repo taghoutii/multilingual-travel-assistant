@@ -1,0 +1,76 @@
+{
+  "note": "Fictional airlines and illustrative prices for the Demo Travel Agency.",
+  "currency": "EUR",
+  "airlines": [
+    {
+      "code": "DA",
+      "name": "Demo Air",
+      "base_fare_eur": 45,
+      "price_per_km_eur": 0.085,
+      "cabin_bag_kg": 8,
+      "checked_bags_included": 1,
+      "checked_bag_kg": 23
+    },
+    {
+      "code": "SK",
+      "name": "Skylark Airways",
+      "base_fare_eur": 30,
+      "price_per_km_eur": 0.075,
+      "cabin_bag_kg": 7,
+      "checked_bags_included": 0,
+      "checked_bag_kg": 20
+    },
+    {
+      "code": "MW",
+      "name": "Meridian Wings",
+      "base_fare_eur": 60,
+      "price_per_km_eur": 0.095,
+      "cabin_bag_kg": 10,
+      "checked_bags_included": 2,
+      "checked_bag_kg": 23
+    },
+    {
+      "code": "AJ",
+      "name": "Azure Jet",
+      "base_fare_eur": 40,
+      "price_per_km_eur": 0.08,
+      "cabin_bag_kg": 8,
+      "checked_bags_included": 1,
+      "checked_bag_kg": 20
+    }
+  ],
+  "departure_times": [
+    "06:10",
+    "08:45",
+    "11:30",
+    "14:20",
+    "17:05",
+    "20:40"
+  ],
+  "cruise_speed_kmh": 780,
+  "taxi_and_climb_minutes": 35,
+  "max_direct_km": 6000,
+  "connection_hubs": [
+    "istanbul",
+    "dubai",
+    "paris",
+    "london"
+  ],
+  "connection_minutes": [
+    75,
+    120,
+    165
+  ],
+  "fare_classes": [
+    {
+      "name": "economy",
+      "multiplier": 1.0
+    },
+    {
+      "name": "premium_economy",
+      "multiplier": 1.7
+    }
+  ],
+  "weekend_multiplier": 1.15,
+  "price_jitter": 0.12
+}
