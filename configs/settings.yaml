@@ -45,4 +45,16 @@ models:
 
 understanding_base_model: null   # Qwen instruct ~1.5-2B, confirmed in Phase 3
 embeddings_model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
-language_id_model: lid.176.ftz
+
+# Stage 1. Thresholds chosen on the synthetic data.
+language_id:
+  model: lid.176.ftz            # in models/, fetched by scripts/download_models.py
+  unsupported_min_prob: 0.85    # top label outside fr/en/ar at or above this -> unsupported
+  keep_previous_below: 0.5      # multi-turn: a weaker detection keeps the previous language
+
+# Stage 2. One-Class SVM on embeddings of in-scope training queries.
+scope_gate:
+  model_file: scope_gate.joblib # in models/, written by scripts/train_scope_gate.py
+  target_in_scope_accept: 0.97  # threshold = score quantile accepting this share of in-scope val
+  nu_grid: [0.01, 0.02, 0.05, 0.1]
+  gamma_grid: [scale, 2.0, 4.0, 8.0]   # capped at 8: above it scores saturate (template memorization)
