@@ -1,15 +1,11 @@
-# Project instructions and decision log (local only)
-CLAUDE.md
-DECISIONS.md
-.claude/
-
-# Secrets
+# Secrets  
 .env
 
 # Data that is not published
 data/synthetic/
 data/test/
 data_generation/
+data/raw/
 
 # Models and training artifacts
 models/

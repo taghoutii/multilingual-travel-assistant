@@ -1,0 +1,1734 @@
+{
+  "note": "Fictional hotels and illustrative prices for the Demo Travel Agency.",
+  "currency": "EUR",
+  "hotels": [
+    {
+      "id": "paris-3",
+      "city": "paris",
+      "name": "Amber Hotel Paris",
+      "stars": 3,
+      "price_per_night_eur": 104,
+      "rating": 7.4,
+      "distance_center_km": 4.5,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "gym",
+        "spa",
+        "wifi"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "paris-4",
+      "city": "paris",
+      "name": "Willow Residence Paris",
+      "stars": 4,
+      "price_per_night_eur": 184,
+      "rating": 7.3,
+      "distance_center_km": 1.4,
+      "breakfast_included": true,
+      "amenities": [
+        "breakfast",
+        "family_rooms",
+        "gym",
+        "pets_allowed",
+        "wifi"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "paris-5",
+      "city": "paris",
+      "name": "Meridian Residence Paris",
+      "stars": 5,
+      "price_per_night_eur": 321,
+      "rating": 7.7,
+      "distance_center_km": 4.7,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "airport_shuttle",
+        "family_rooms",
+        "pool",
+        "spa",
+        "wifi"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "nice-3",
+      "city": "nice",
+      "name": "Harbor Residence Nice",
+      "stars": 3,
+      "price_per_night_eur": 97,
+      "rating": 8.8,
+      "distance_center_km": 3.4,
+      "breakfast_included": true,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "parking",
+        "spa"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "nice-4",
+      "city": "nice",
+      "name": "Harbor Boutique Hotel Nice",
+      "stars": 4,
+      "price_per_night_eur": 156,
+      "rating": 7.3,
+      "distance_center_km": 1.6,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "air_conditioning",
+        "gym",
+        "parking",
+        "spa"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "nice-5",
+      "city": "nice",
+      "name": "Harbor Palace Nice",
+      "stars": 5,
+      "price_per_night_eur": 291,
+      "rating": 7.6,
+      "distance_center_km": 2.3,
+      "breakfast_included": true,
+      "amenities": [
+        "airport_shuttle",
+        "breakfast",
+        "gym",
+        "parking",
+        "restaurant",
+        "spa"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "madrid-3",
+      "city": "madrid",
+      "name": "Terrace Lodge Madrid",
+      "stars": 3,
+      "price_per_night_eur": 81,
+      "rating": 7.6,
+      "distance_center_km": 2.5,
+      "breakfast_included": true,
+      "amenities": [
+        "accessible_rooms",
+        "breakfast",
+        "family_rooms",
+        "pool"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "madrid-4",
+      "city": "madrid",
+      "name": "Terrace Inn Madrid",
+      "stars": 4,
+      "price_per_night_eur": 121,
+      "rating": 7.7,
+      "distance_center_km": 5.7,
+      "breakfast_included": false,
+      "amenities": [
+        "airport_shuttle",
+        "gym",
+        "parking",
+        "pets_allowed",
+        "wifi"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "madrid-5",
+      "city": "madrid",
+      "name": "Courtyard Lodge Madrid",
+      "stars": 5,
+      "price_per_night_eur": 219,
+      "rating": 8.4,
+      "distance_center_km": 1.8,
+      "breakfast_included": true,
+      "amenities": [
+        "airport_shuttle",
+        "breakfast",
+        "pets_allowed",
+        "pool",
+        "restaurant",
+        "spa"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "barcelona-3",
+      "city": "barcelona",
+      "name": "Willow Residence Barcelona",
+      "stars": 3,
+      "price_per_night_eur": 87,
+      "rating": 8.9,
+      "distance_center_km": 5.2,
+      "breakfast_included": false,
+      "amenities": [
+        "family_rooms",
+        "gym",
+        "parking",
+        "pool"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "barcelona-4",
+      "city": "barcelona",
+      "name": "Amber Suites Barcelona",
+      "stars": 4,
+      "price_per_night_eur": 140,
+      "rating": 9.4,
+      "distance_center_km": 3.3,
+      "breakfast_included": true,
+      "amenities": [
+        "accessible_rooms",
+        "air_conditioning",
+        "airport_shuttle",
+        "breakfast",
+        "pets_allowed"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "barcelona-5",
+      "city": "barcelona",
+      "name": "Terrace Lodge Barcelona",
+      "stars": 5,
+      "price_per_night_eur": 252,
+      "rating": 7.5,
+      "distance_center_km": 0.3,
+      "breakfast_included": true,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "family_rooms",
+        "parking",
+        "spa",
+        "wifi"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "rome-3",
+      "city": "rome",
+      "name": "Marina Palace Rome",
+      "stars": 3,
+      "price_per_night_eur": 97,
+      "rating": 8.3,
+      "distance_center_km": 1.4,
+      "breakfast_included": true,
+      "amenities": [
+        "breakfast",
+        "family_rooms",
+        "pool",
+        "spa"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "rome-4",
+      "city": "rome",
+      "name": "Saffron Boutique Hotel Rome",
+      "stars": 4,
+      "price_per_night_eur": 135,
+      "rating": 9.2,
+      "distance_center_km": 5.3,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "family_rooms",
+        "parking",
+        "restaurant",
+        "wifi"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "rome-5",
+      "city": "rome",
+      "name": "Meridian Hotel Rome",
+      "stars": 5,
+      "price_per_night_eur": 249,
+      "rating": 8.9,
+      "distance_center_km": 4.7,
+      "breakfast_included": true,
+      "amenities": [
+        "accessible_rooms",
+        "air_conditioning",
+        "airport_shuttle",
+        "breakfast",
+        "gym",
+        "restaurant"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "milan-3",
+      "city": "milan",
+      "name": "Terrace Residence Milan",
+      "stars": 3,
+      "price_per_night_eur": 102,
+      "rating": 8.1,
+      "distance_center_km": 1.5,
+      "breakfast_included": false,
+      "amenities": [
+        "family_rooms",
+        "pets_allowed",
+        "pool",
+        "spa"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "milan-4",
+      "city": "milan",
+      "name": "Jasmine Residence Milan",
+      "stars": 4,
+      "price_per_night_eur": 143,
+      "rating": 7.7,
+      "distance_center_km": 2.2,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "family_rooms",
+        "parking",
+        "pets_allowed",
+        "restaurant"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "milan-5",
+      "city": "milan",
+      "name": "Willow Suites Milan",
+      "stars": 5,
+      "price_per_night_eur": 304,
+      "rating": 7.4,
+      "distance_center_km": 1.7,
+      "breakfast_included": true,
+      "amenities": [
+        "accessible_rooms",
+        "air_conditioning",
+        "breakfast",
+        "gym",
+        "pets_allowed",
+        "wifi"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "lisbon-3",
+      "city": "lisbon",
+      "name": "Courtyard Boutique Hotel Lisbon",
+      "stars": 3,
+      "price_per_night_eur": 66,
+      "rating": 8.2,
+      "distance_center_km": 2.6,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "air_conditioning",
+        "pool",
+        "restaurant"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "lisbon-4",
+      "city": "lisbon",
+      "name": "Olive Lodge Lisbon",
+      "stars": 4,
+      "price_per_night_eur": 123,
+      "rating": 7.3,
+      "distance_center_km": 4.0,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "airport_shuttle",
+        "parking",
+        "pets_allowed",
+        "restaurant"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "lisbon-5",
+      "city": "lisbon",
+      "name": "Cedar Residence Lisbon",
+      "stars": 5,
+      "price_per_night_eur": 212,
+      "rating": 7.5,
+      "distance_center_km": 1.3,
+      "breakfast_included": true,
+      "amenities": [
+        "accessible_rooms",
+        "breakfast",
+        "family_rooms",
+        "gym",
+        "parking",
+        "pets_allowed"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "porto-3",
+      "city": "porto",
+      "name": "Meridian Palace Porto",
+      "stars": 3,
+      "price_per_night_eur": 57,
+      "rating": 9.4,
+      "distance_center_km": 5.1,
+      "breakfast_included": true,
+      "amenities": [
+        "breakfast",
+        "family_rooms",
+        "pets_allowed",
+        "restaurant"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "porto-4",
+      "city": "porto",
+      "name": "Meridian Suites Porto",
+      "stars": 4,
+      "price_per_night_eur": 112,
+      "rating": 7.6,
+      "distance_center_km": 0.3,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "airport_shuttle",
+        "gym",
+        "pets_allowed",
+        "restaurant"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "porto-5",
+      "city": "porto",
+      "name": "Atlas Palace Porto",
+      "stars": 5,
+      "price_per_night_eur": 177,
+      "rating": 7.7,
+      "distance_center_km": 0.6,
+      "breakfast_included": true,
+      "amenities": [
+        "airport_shuttle",
+        "breakfast",
+        "family_rooms",
+        "pets_allowed",
+        "restaurant",
+        "spa"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "london-3",
+      "city": "london",
+      "name": "Palm Hotel London",
+      "stars": 3,
+      "price_per_night_eur": 129,
+      "rating": 8.4,
+      "distance_center_km": 0.6,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "family_rooms",
+        "restaurant",
+        "wifi"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "london-4",
+      "city": "london",
+      "name": "Saffron Hotel London",
+      "stars": 4,
+      "price_per_night_eur": 213,
+      "rating": 8.5,
+      "distance_center_km": 3.6,
+      "breakfast_included": true,
+      "amenities": [
+        "accessible_rooms",
+        "air_conditioning",
+        "airport_shuttle",
+        "breakfast",
+        "gym"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "london-5",
+      "city": "london",
+      "name": "Coral Hotel London",
+      "stars": 5,
+      "price_per_night_eur": 336,
+      "rating": 8.8,
+      "distance_center_km": 1.7,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "air_conditioning",
+        "airport_shuttle",
+        "family_rooms",
+        "parking",
+        "pool"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "edinburgh-3",
+      "city": "edinburgh",
+      "name": "Lantern Lodge Edinburgh",
+      "stars": 3,
+      "price_per_night_eur": 99,
+      "rating": 9.3,
+      "distance_center_km": 0.4,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "parking",
+        "restaurant",
+        "spa"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "edinburgh-4",
+      "city": "edinburgh",
+      "name": "Harbor Boutique Hotel Edinburgh",
+      "stars": 4,
+      "price_per_night_eur": 161,
+      "rating": 9.1,
+      "distance_center_km": 2.4,
+      "breakfast_included": false,
+      "amenities": [
+        "family_rooms",
+        "gym",
+        "parking",
+        "pool",
+        "spa"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "edinburgh-5",
+      "city": "edinburgh",
+      "name": "Skyline Palace Edinburgh",
+      "stars": 5,
+      "price_per_night_eur": 290,
+      "rating": 7.9,
+      "distance_center_km": 4.1,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "family_rooms",
+        "parking",
+        "pets_allowed",
+        "spa",
+        "wifi"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "berlin-3",
+      "city": "berlin",
+      "name": "Atlas Hotel Berlin",
+      "stars": 3,
+      "price_per_night_eur": 74,
+      "rating": 7.7,
+      "distance_center_km": 2.3,
+      "breakfast_included": true,
+      "amenities": [
+        "breakfast",
+        "family_rooms",
+        "pool",
+        "spa"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "berlin-4",
+      "city": "berlin",
+      "name": "Marina Residence Berlin",
+      "stars": 4,
+      "price_per_night_eur": 115,
+      "rating": 7.9,
+      "distance_center_km": 1.0,
+      "breakfast_included": true,
+      "amenities": [
+        "airport_shuttle",
+        "breakfast",
+        "pets_allowed",
+        "spa",
+        "wifi"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "berlin-5",
+      "city": "berlin",
+      "name": "Saffron Lodge Berlin",
+      "stars": 5,
+      "price_per_night_eur": 211,
+      "rating": 9.1,
+      "distance_center_km": 5.5,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "airport_shuttle",
+        "family_rooms",
+        "pets_allowed",
+        "restaurant",
+        "wifi"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "munich-3",
+      "city": "munich",
+      "name": "Riverside Boutique Hotel Munich",
+      "stars": 3,
+      "price_per_night_eur": 83,
+      "rating": 8.0,
+      "distance_center_km": 5.6,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "airport_shuttle",
+        "family_rooms",
+        "pool"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "munich-4",
+      "city": "munich",
+      "name": "Riverside Suites Munich",
+      "stars": 4,
+      "price_per_night_eur": 164,
+      "rating": 8.8,
+      "distance_center_km": 5.6,
+      "breakfast_included": true,
+      "amenities": [
+        "air_conditioning",
+        "airport_shuttle",
+        "breakfast",
+        "gym",
+        "parking"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "munich-5",
+      "city": "munich",
+      "name": "Saffron Palace Munich",
+      "stars": 5,
+      "price_per_night_eur": 297,
+      "rating": 9.0,
+      "distance_center_km": 5.2,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "airport_shuttle",
+        "parking",
+        "pets_allowed",
+        "pool",
+        "wifi"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "marrakech-3",
+      "city": "marrakech",
+      "name": "Atlas Suites Marrakesh",
+      "stars": 3,
+      "price_per_night_eur": 56,
+      "rating": 7.7,
+      "distance_center_km": 5.0,
+      "breakfast_included": true,
+      "amenities": [
+        "airport_shuttle",
+        "breakfast",
+        "pets_allowed",
+        "wifi"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "marrakech-4",
+      "city": "marrakech",
+      "name": "Riverside Inn Marrakesh",
+      "stars": 4,
+      "price_per_night_eur": 83,
+      "rating": 9.1,
+      "distance_center_km": 5.8,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "airport_shuttle",
+        "gym",
+        "pets_allowed",
+        "wifi"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "marrakech-5",
+      "city": "marrakech",
+      "name": "Riverside Lodge Marrakesh",
+      "stars": 5,
+      "price_per_night_eur": 169,
+      "rating": 7.8,
+      "distance_center_km": 3.6,
+      "breakfast_included": false,
+      "amenities": [
+        "airport_shuttle",
+        "family_rooms",
+        "parking",
+        "pets_allowed",
+        "restaurant",
+        "wifi"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "casablanca-3",
+      "city": "casablanca",
+      "name": "Cedar Hotel Casablanca",
+      "stars": 3,
+      "price_per_night_eur": 48,
+      "rating": 9.4,
+      "distance_center_km": 1.0,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "airport_shuttle",
+        "parking",
+        "pets_allowed"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "casablanca-4",
+      "city": "casablanca",
+      "name": "Atlas Hotel Casablanca",
+      "stars": 4,
+      "price_per_night_eur": 78,
+      "rating": 7.4,
+      "distance_center_km": 4.1,
+      "breakfast_included": false,
+      "amenities": [
+        "airport_shuttle",
+        "family_rooms",
+        "gym",
+        "pets_allowed",
+        "wifi"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "casablanca-5",
+      "city": "casablanca",
+      "name": "Coral Inn Casablanca",
+      "stars": 5,
+      "price_per_night_eur": 144,
+      "rating": 8.1,
+      "distance_center_km": 2.0,
+      "breakfast_included": true,
+      "amenities": [
+        "accessible_rooms",
+        "air_conditioning",
+        "breakfast",
+        "family_rooms",
+        "parking",
+        "spa"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "cairo-3",
+      "city": "cairo",
+      "name": "Courtyard Residence Cairo",
+      "stars": 3,
+      "price_per_night_eur": 38,
+      "rating": 9.0,
+      "distance_center_km": 2.0,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "airport_shuttle",
+        "pool",
+        "spa"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "cairo-4",
+      "city": "cairo",
+      "name": "Garden Palace Cairo",
+      "stars": 4,
+      "price_per_night_eur": 63,
+      "rating": 7.7,
+      "distance_center_km": 3.0,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "family_rooms",
+        "parking",
+        "pets_allowed",
+        "restaurant"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "cairo-5",
+      "city": "cairo",
+      "name": "Terrace Hotel Cairo",
+      "stars": 5,
+      "price_per_night_eur": 126,
+      "rating": 7.7,
+      "distance_center_km": 2.1,
+      "breakfast_included": true,
+      "amenities": [
+        "accessible_rooms",
+        "airport_shuttle",
+        "breakfast",
+        "family_rooms",
+        "parking",
+        "spa"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "luxor-3",
+      "city": "luxor",
+      "name": "Lantern Hotel Luxor",
+      "stars": 3,
+      "price_per_night_eur": 35,
+      "rating": 9.1,
+      "distance_center_km": 3.6,
+      "breakfast_included": true,
+      "amenities": [
+        "breakfast",
+        "gym",
+        "restaurant",
+        "wifi"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "luxor-4",
+      "city": "luxor",
+      "name": "Sandstone Residence Luxor",
+      "stars": 4,
+      "price_per_night_eur": 54,
+      "rating": 9.0,
+      "distance_center_km": 4.3,
+      "breakfast_included": true,
+      "amenities": [
+        "airport_shuttle",
+        "breakfast",
+        "gym",
+        "pool",
+        "wifi"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "luxor-5",
+      "city": "luxor",
+      "name": "Cedar Boutique Hotel Luxor",
+      "stars": 5,
+      "price_per_night_eur": 106,
+      "rating": 8.4,
+      "distance_center_km": 2.1,
+      "breakfast_included": true,
+      "amenities": [
+        "accessible_rooms",
+        "breakfast",
+        "gym",
+        "parking",
+        "pool",
+        "restaurant"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "amman-3",
+      "city": "amman",
+      "name": "Coral Palace Amman",
+      "stars": 3,
+      "price_per_night_eur": 48,
+      "rating": 7.6,
+      "distance_center_km": 5.2,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "airport_shuttle",
+        "family_rooms",
+        "pets_allowed"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "amman-4",
+      "city": "amman",
+      "name": "Atlas Palace Amman",
+      "stars": 4,
+      "price_per_night_eur": 83,
+      "rating": 7.8,
+      "distance_center_km": 0.7,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "family_rooms",
+        "gym",
+        "restaurant",
+        "spa"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "amman-5",
+      "city": "amman",
+      "name": "Meridian Inn Amman",
+      "stars": 5,
+      "price_per_night_eur": 139,
+      "rating": 8.7,
+      "distance_center_km": 4.3,
+      "breakfast_included": true,
+      "amenities": [
+        "accessible_rooms",
+        "breakfast",
+        "family_rooms",
+        "parking",
+        "pets_allowed",
+        "pool"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "aqaba-3",
+      "city": "aqaba",
+      "name": "Garden Residence Aqaba",
+      "stars": 3,
+      "price_per_night_eur": 48,
+      "rating": 9.0,
+      "distance_center_km": 2.5,
+      "breakfast_included": false,
+      "amenities": [
+        "airport_shuttle",
+        "family_rooms",
+        "parking",
+        "restaurant"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "aqaba-4",
+      "city": "aqaba",
+      "name": "Willow Residence Aqaba",
+      "stars": 4,
+      "price_per_night_eur": 92,
+      "rating": 9.3,
+      "distance_center_km": 2.7,
+      "breakfast_included": false,
+      "amenities": [
+        "airport_shuttle",
+        "parking",
+        "restaurant",
+        "spa",
+        "wifi"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "aqaba-5",
+      "city": "aqaba",
+      "name": "Sandstone Suites Aqaba",
+      "stars": 5,
+      "price_per_night_eur": 163,
+      "rating": 9.0,
+      "distance_center_km": 4.4,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "airport_shuttle",
+        "pool",
+        "restaurant",
+        "spa",
+        "wifi"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "istanbul-3",
+      "city": "istanbul",
+      "name": "Lantern Boutique Hotel Istanbul",
+      "stars": 3,
+      "price_per_night_eur": 51,
+      "rating": 8.1,
+      "distance_center_km": 5.2,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "airport_shuttle",
+        "family_rooms",
+        "wifi"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "istanbul-4",
+      "city": "istanbul",
+      "name": "Cedar Inn Istanbul",
+      "stars": 4,
+      "price_per_night_eur": 89,
+      "rating": 9.1,
+      "distance_center_km": 1.9,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "airport_shuttle",
+        "gym",
+        "parking",
+        "restaurant"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "istanbul-5",
+      "city": "istanbul",
+      "name": "Atlas Palace Istanbul",
+      "stars": 5,
+      "price_per_night_eur": 159,
+      "rating": 7.4,
+      "distance_center_km": 5.8,
+      "breakfast_included": true,
+      "amenities": [
+        "accessible_rooms",
+        "breakfast",
+        "family_rooms",
+        "pool",
+        "restaurant",
+        "wifi"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "antalya-3",
+      "city": "antalya",
+      "name": "Azure Suites Antalya",
+      "stars": 3,
+      "price_per_night_eur": 50,
+      "rating": 8.2,
+      "distance_center_km": 1.0,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "gym",
+        "pool",
+        "wifi"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "antalya-4",
+      "city": "antalya",
+      "name": "Skyline Lodge Antalya",
+      "stars": 4,
+      "price_per_night_eur": 94,
+      "rating": 7.4,
+      "distance_center_km": 0.4,
+      "breakfast_included": true,
+      "amenities": [
+        "accessible_rooms",
+        "breakfast",
+        "parking",
+        "pool",
+        "spa"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "antalya-5",
+      "city": "antalya",
+      "name": "Willow Lodge Antalya",
+      "stars": 5,
+      "price_per_night_eur": 164,
+      "rating": 7.9,
+      "distance_center_km": 4.2,
+      "breakfast_included": true,
+      "amenities": [
+        "accessible_rooms",
+        "airport_shuttle",
+        "breakfast",
+        "gym",
+        "pets_allowed",
+        "wifi"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "dubai-3",
+      "city": "dubai",
+      "name": "Willow Palace Dubai",
+      "stars": 3,
+      "price_per_night_eur": 101,
+      "rating": 7.4,
+      "distance_center_km": 4.0,
+      "breakfast_included": false,
+      "amenities": [
+        "airport_shuttle",
+        "family_rooms",
+        "parking",
+        "wifi"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "dubai-4",
+      "city": "dubai",
+      "name": "Garden Palace Dubai",
+      "stars": 4,
+      "price_per_night_eur": 168,
+      "rating": 8.2,
+      "distance_center_km": 4.5,
+      "breakfast_included": true,
+      "amenities": [
+        "airport_shuttle",
+        "breakfast",
+        "parking",
+        "pets_allowed",
+        "restaurant"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "dubai-5",
+      "city": "dubai",
+      "name": "Coral Palace Dubai",
+      "stars": 5,
+      "price_per_night_eur": 315,
+      "rating": 9.0,
+      "distance_center_km": 0.8,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "airport_shuttle",
+        "family_rooms",
+        "pool",
+        "restaurant",
+        "spa"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "abu_dhabi-3",
+      "city": "abu_dhabi",
+      "name": "Meridian Palace Abu Dhabi",
+      "stars": 3,
+      "price_per_night_eur": 88,
+      "rating": 8.3,
+      "distance_center_km": 2.2,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "air_conditioning",
+        "airport_shuttle",
+        "restaurant"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "abu_dhabi-4",
+      "city": "abu_dhabi",
+      "name": "Courtyard Inn Abu Dhabi",
+      "stars": 4,
+      "price_per_night_eur": 150,
+      "rating": 7.6,
+      "distance_center_km": 1.7,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "parking",
+        "pets_allowed",
+        "spa",
+        "wifi"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "abu_dhabi-5",
+      "city": "abu_dhabi",
+      "name": "Sandstone Boutique Hotel Abu Dhabi",
+      "stars": 5,
+      "price_per_night_eur": 262,
+      "rating": 8.1,
+      "distance_center_km": 1.7,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "air_conditioning",
+        "family_rooms",
+        "gym",
+        "restaurant",
+        "wifi"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "new_york-3",
+      "city": "new_york",
+      "name": "Sandstone Boutique Hotel New York",
+      "stars": 3,
+      "price_per_night_eur": 128,
+      "rating": 8.7,
+      "distance_center_km": 1.8,
+      "breakfast_included": false,
+      "amenities": [
+        "airport_shuttle",
+        "family_rooms",
+        "parking",
+        "pets_allowed"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "new_york-4",
+      "city": "new_york",
+      "name": "Meridian Hotel New York",
+      "stars": 4,
+      "price_per_night_eur": 205,
+      "rating": 8.8,
+      "distance_center_km": 1.9,
+      "breakfast_included": true,
+      "amenities": [
+        "breakfast",
+        "gym",
+        "parking",
+        "pets_allowed",
+        "pool"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "new_york-5",
+      "city": "new_york",
+      "name": "Olive Palace New York",
+      "stars": 5,
+      "price_per_night_eur": 360,
+      "rating": 8.4,
+      "distance_center_km": 1.9,
+      "breakfast_included": false,
+      "amenities": [
+        "gym",
+        "parking",
+        "pets_allowed",
+        "pool",
+        "restaurant",
+        "spa"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "los_angeles-3",
+      "city": "los_angeles",
+      "name": "Citadel Inn Los Angeles",
+      "stars": 3,
+      "price_per_night_eur": 120,
+      "rating": 8.5,
+      "distance_center_km": 3.0,
+      "breakfast_included": true,
+      "amenities": [
+        "breakfast",
+        "pets_allowed",
+        "pool",
+        "restaurant"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "los_angeles-4",
+      "city": "los_angeles",
+      "name": "Palm Suites Los Angeles",
+      "stars": 4,
+      "price_per_night_eur": 180,
+      "rating": 7.4,
+      "distance_center_km": 3.9,
+      "breakfast_included": true,
+      "amenities": [
+        "breakfast",
+        "family_rooms",
+        "restaurant",
+        "spa",
+        "wifi"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "los_angeles-5",
+      "city": "los_angeles",
+      "name": "Lantern Suites Los Angeles",
+      "stars": 5,
+      "price_per_night_eur": 354,
+      "rating": 8.5,
+      "distance_center_km": 4.8,
+      "breakfast_included": true,
+      "amenities": [
+        "accessible_rooms",
+        "air_conditioning",
+        "breakfast",
+        "gym",
+        "pets_allowed",
+        "spa"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "montreal-3",
+      "city": "montreal",
+      "name": "Marina Residence Montreal",
+      "stars": 3,
+      "price_per_night_eur": 74,
+      "rating": 8.6,
+      "distance_center_km": 3.8,
+      "breakfast_included": false,
+      "amenities": [
+        "airport_shuttle",
+        "pets_allowed",
+        "restaurant",
+        "spa"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "montreal-4",
+      "city": "montreal",
+      "name": "Courtyard Lodge Montreal",
+      "stars": 4,
+      "price_per_night_eur": 118,
+      "rating": 7.4,
+      "distance_center_km": 0.3,
+      "breakfast_included": true,
+      "amenities": [
+        "breakfast",
+        "gym",
+        "pets_allowed",
+        "pool",
+        "spa"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "montreal-5",
+      "city": "montreal",
+      "name": "Coral Residence Montreal",
+      "stars": 5,
+      "price_per_night_eur": 248,
+      "rating": 7.4,
+      "distance_center_km": 1.6,
+      "breakfast_included": false,
+      "amenities": [
+        "family_rooms",
+        "gym",
+        "parking",
+        "pets_allowed",
+        "spa",
+        "wifi"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "toronto-3",
+      "city": "toronto",
+      "name": "Amber Boutique Hotel Toronto",
+      "stars": 3,
+      "price_per_night_eur": 85,
+      "rating": 8.6,
+      "distance_center_km": 5.5,
+      "breakfast_included": true,
+      "amenities": [
+        "air_conditioning",
+        "airport_shuttle",
+        "breakfast",
+        "gym"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "toronto-4",
+      "city": "toronto",
+      "name": "Harbor Hotel Toronto",
+      "stars": 4,
+      "price_per_night_eur": 128,
+      "rating": 8.7,
+      "distance_center_km": 4.3,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "air_conditioning",
+        "pool",
+        "restaurant",
+        "spa"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "toronto-5",
+      "city": "toronto",
+      "name": "Marina Boutique Hotel Toronto",
+      "stars": 5,
+      "price_per_night_eur": 243,
+      "rating": 7.8,
+      "distance_center_km": 0.8,
+      "breakfast_included": true,
+      "amenities": [
+        "airport_shuttle",
+        "breakfast",
+        "parking",
+        "pets_allowed",
+        "restaurant",
+        "wifi"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "tokyo-3",
+      "city": "tokyo",
+      "name": "Terrace Palace Tokyo",
+      "stars": 3,
+      "price_per_night_eur": 97,
+      "rating": 8.6,
+      "distance_center_km": 5.5,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "pool",
+        "spa",
+        "wifi"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "tokyo-4",
+      "city": "tokyo",
+      "name": "Willow Residence Tokyo",
+      "stars": 4,
+      "price_per_night_eur": 158,
+      "rating": 7.9,
+      "distance_center_km": 0.9,
+      "breakfast_included": true,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "parking",
+        "pets_allowed",
+        "restaurant"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "tokyo-5",
+      "city": "tokyo",
+      "name": "Palm Residence Tokyo",
+      "stars": 5,
+      "price_per_night_eur": 270,
+      "rating": 7.8,
+      "distance_center_km": 1.0,
+      "breakfast_included": false,
+      "amenities": [
+        "airport_shuttle",
+        "gym",
+        "pets_allowed",
+        "restaurant",
+        "spa",
+        "wifi"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "osaka-3",
+      "city": "osaka",
+      "name": "Marina Palace Osaka",
+      "stars": 3,
+      "price_per_night_eur": 79,
+      "rating": 7.6,
+      "distance_center_km": 2.4,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "family_rooms",
+        "restaurant",
+        "wifi"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "osaka-4",
+      "city": "osaka",
+      "name": "Amber Residence Osaka",
+      "stars": 4,
+      "price_per_night_eur": 144,
+      "rating": 8.2,
+      "distance_center_km": 4.3,
+      "breakfast_included": false,
+      "amenities": [
+        "family_rooms",
+        "gym",
+        "pool",
+        "spa",
+        "wifi"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "osaka-5",
+      "city": "osaka",
+      "name": "Azure Lodge Osaka",
+      "stars": 5,
+      "price_per_night_eur": 237,
+      "rating": 7.7,
+      "distance_center_km": 5.1,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "family_rooms",
+        "gym",
+        "pool",
+        "spa",
+        "wifi"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "bangkok-3",
+      "city": "bangkok",
+      "name": "Skyline Hotel Bangkok",
+      "stars": 3,
+      "price_per_night_eur": 42,
+      "rating": 7.8,
+      "distance_center_km": 5.1,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "pool",
+        "restaurant",
+        "spa"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "bangkok-4",
+      "city": "bangkok",
+      "name": "Meridian Residence Bangkok",
+      "stars": 4,
+      "price_per_night_eur": 74,
+      "rating": 7.8,
+      "distance_center_km": 4.8,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "airport_shuttle",
+        "family_rooms",
+        "gym",
+        "pool"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "bangkok-5",
+      "city": "bangkok",
+      "name": "Palm Palace Bangkok",
+      "stars": 5,
+      "price_per_night_eur": 128,
+      "rating": 9.4,
+      "distance_center_km": 3.1,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "airport_shuttle",
+        "family_rooms",
+        "pets_allowed",
+        "spa",
+        "wifi"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "phuket-3",
+      "city": "phuket",
+      "name": "Skyline Boutique Hotel Phuket",
+      "stars": 3,
+      "price_per_night_eur": 52,
+      "rating": 8.0,
+      "distance_center_km": 5.6,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "family_rooms",
+        "parking",
+        "restaurant"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "phuket-4",
+      "city": "phuket",
+      "name": "Meridian Boutique Hotel Phuket",
+      "stars": 4,
+      "price_per_night_eur": 84,
+      "rating": 8.8,
+      "distance_center_km": 4.9,
+      "breakfast_included": false,
+      "amenities": [
+        "airport_shuttle",
+        "gym",
+        "parking",
+        "pets_allowed",
+        "wifi"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "phuket-5",
+      "city": "phuket",
+      "name": "Terrace Palace Phuket",
+      "stars": 5,
+      "price_per_night_eur": 161,
+      "rating": 7.9,
+      "distance_center_km": 0.9,
+      "breakfast_included": false,
+      "amenities": [
+        "air_conditioning",
+        "pets_allowed",
+        "pool",
+        "restaurant",
+        "spa",
+        "wifi"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "tunis-3",
+      "city": "tunis",
+      "name": "Olive Boutique Hotel Tunis",
+      "stars": 3,
+      "price_per_night_eur": 41,
+      "rating": 9.3,
+      "distance_center_km": 0.7,
+      "breakfast_included": false,
+      "amenities": [
+        "airport_shuttle",
+        "pool",
+        "restaurant",
+        "wifi"
+      ],
+      "free_cancellation_days": 3
+    },
+    {
+      "id": "tunis-4",
+      "city": "tunis",
+      "name": "Palm Boutique Hotel Tunis",
+      "stars": 4,
+      "price_per_night_eur": 69,
+      "rating": 8.6,
+      "distance_center_km": 5.4,
+      "breakfast_included": true,
+      "amenities": [
+        "air_conditioning",
+        "airport_shuttle",
+        "breakfast",
+        "parking",
+        "pets_allowed"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "tunis-5",
+      "city": "tunis",
+      "name": "Citadel Hotel Tunis",
+      "stars": 5,
+      "price_per_night_eur": 106,
+      "rating": 9.4,
+      "distance_center_km": 4.6,
+      "breakfast_included": true,
+      "amenities": [
+        "accessible_rooms",
+        "breakfast",
+        "gym",
+        "parking",
+        "pets_allowed",
+        "spa"
+      ],
+      "free_cancellation_days": 1
+    },
+    {
+      "id": "djerba-3",
+      "city": "djerba",
+      "name": "Skyline Suites Djerba",
+      "stars": 3,
+      "price_per_night_eur": 41,
+      "rating": 7.3,
+      "distance_center_km": 2.3,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "pets_allowed",
+        "spa",
+        "wifi"
+      ],
+      "free_cancellation_days": 7
+    },
+    {
+      "id": "djerba-4",
+      "city": "djerba",
+      "name": "Lantern Suites Djerba",
+      "stars": 4,
+      "price_per_night_eur": 65,
+      "rating": 8.5,
+      "distance_center_km": 2.5,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "airport_shuttle",
+        "family_rooms",
+        "pets_allowed",
+        "pool"
+      ],
+      "free_cancellation_days": 2
+    },
+    {
+      "id": "djerba-5",
+      "city": "djerba",
+      "name": "Sandstone Boutique Hotel Djerba",
+      "stars": 5,
+      "price_per_night_eur": 130,
+      "rating": 9.2,
+      "distance_center_km": 3.0,
+      "breakfast_included": false,
+      "amenities": [
+        "accessible_rooms",
+        "gym",
+        "pets_allowed",
+        "pool",
+        "restaurant",
+        "spa"
+      ],
+      "free_cancellation_days": 3
+    }
+  ]
+}
